@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Glory');
+
+body {
+    background-color: white;
+    font-family: 'Glory', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.0125em;
+    text-align: left;
+    padding: 2rem 10rem 2rem 10rem;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    text-align: left;
+    width: 50%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+}
+
+a:hover {
+    color: #F3B69A;
+    border-bottom-color: #F3B69A;
+}
+
+.school {
+    font-size: 20px;
+}
+
+.club {
+    font-size: 15px;
+}
+
+.print {
+    font-size: 16px;
+    font-family: 'Glory', sans-serif;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+.print:hover {
+    color: #F3B69A;
+    border-bottom-color: #F3B69A;
+}
+
+#skills {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li:before {
+    content: "→";
+    padding-right: 8px;
+    vertical-align: 0%;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 0.0125em;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    div {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .left {
+        font-weight: 600;
+        line-height: 1.5;
+        padding-top: 1.3rem;
+    }
+
+    .right {
+        padding-bottom: 1.3rem;
+    }
+
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    li {
+        padding-left: 1.5em;
+        text-indent: -1.5em;
+    }
+
+    li:before {
+        content: "→";
+        padding-right: 6px;
+        vertical-align: 0%;
+        margin-left: 0px;
+    }
+}
+
+@media only print {
+    body {
+        background-color: white;
+        font-family: 'Glory', sans-serif;
+        color: black;
+        font-size: 15.5px;
+        line-height: 1.5;
+        letter-spacing: 0.0125em;
+        text-align: left;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .print {
+        visibility: hidden;
+    }
+}
