@@ -23,6 +23,12 @@ div {
     width: 50%;
 }
 
+h1,
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
 hr {
     border: 0;
     height: 1px;
