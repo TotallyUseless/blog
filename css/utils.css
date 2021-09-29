@@ -68,9 +68,9 @@
 
 .form-box input,
 textarea {
-    width: 52vw;
-    padding: 0px 6px;
-    margin: 7px 0;
+    width: 55vw;
+    padding: 10px 10px;
+    margin: 8px 0;
     font-size: 18px;
     font-family: var(--font1);
     border: 2px solid var(--main-bg-color);
