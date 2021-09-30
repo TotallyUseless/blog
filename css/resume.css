@@ -67,17 +67,15 @@ a:hover {
     border-bottom-color: #F3B69A;
 }
 
-#skills {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-
-}
-
 ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+}
+
+li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
 }
 
 li:before {
